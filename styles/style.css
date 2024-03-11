@@ -1,4 +1,4 @@
-@font-face {
+\@font-face {
     font-family: 'Segoe UI';
     src: url('../fonts/SegoeUI.woff2') format('woff2');
     font-weight: 400;
@@ -545,7 +545,7 @@ body {
 
 }
 
-@media (max-width:580px) {
+@media (max-width: 580px) {
 
     .reviews__list {
         display: grid;
@@ -627,8 +627,12 @@ body {
         padding-top: 40px;
     }
 
+    .goods__nav {
+        margin-bottom: 5px;
+    }
+
     .goods__nav-list {
-        min-height: 40px;
+        min-height: 45px;
         top: -1.5em;
     }
 
@@ -640,15 +644,10 @@ body {
         display: flex;
     }
     
-    .goods__container {
-        
-    }
-
     .goods__list {
         display: flex;
-        padding-inline: 20px;
-        padding-bottom: 0px;
-        margin-bottom: 35px;
+        padding: 10px 20px;
+        margin-bottom: 45px;
         column-gap: 15px;
 
         scroll-snap-type: x mandatory;
@@ -658,7 +657,7 @@ body {
     .goods__item {
         min-width: 100%;
         min-height: 440px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .goods__item {
